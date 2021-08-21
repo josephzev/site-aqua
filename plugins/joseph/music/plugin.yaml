@@ -1,0 +1,6 @@
+plugin:
+    name: 'joseph.music::lang.plugin.name'
+    description: 'joseph.music::lang.plugin.description'
+    author: Joseph
+    icon: oc-icon-music
+    homepage: ''
