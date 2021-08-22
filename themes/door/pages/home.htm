@@ -2,11 +2,37 @@ title = "Home"
 layout = "default"
 url = "/"
 ==
-<div class="uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-height-viewport uk-background-secondary uk-light">
+<!-- <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-height-viewport uk-background-secondary uk-light">
 	<h1>I Own You dude</h1>
-	<audio controls autoplay>
+	<audio controls>
 	<source src="horse.ogg" type="audio/ogg">
 	<source src="{{ 'song.mp3'|media }}" type="audio/mpeg">
 	Your browser does not support the audio element.
 	</audio>
+</div> -->
+
+<div class="uk-background-top-center uk-height-viewport uk-flex uk-flex-middle uk-flex-center uk-background-cover uk-flex uk-flex-center" alt="" data-src="./storage/app/media/noam.jpeg" uk-img uk-height-viewport="offset-bottom: 1">
+	<div class="m-hero uk-flex uk-flex-middle uk-flex-center">
+	    
+    </div>
+</div>
+<div class="m-second uk-height-small uk-flex-column uk-flex uk-flex-center uk-flex-middle uk-width-1-1">
+	<div class="container uk-width-1-1">
+		<nav id="navbar" class="under-nav uk-container-expand  " uk-navbar>
+	            <div class="uk-navbar-left">
+	                <ul class="uk-navbar-nav ">
+	                    <li><div><a class="{% if this.page.id == 'home' %} active {% else %} underline {% endif %}" href="{{'home' | page}}">להזמנות</a></div></li> 
+	                </ul>
+	            </div>
+	            <div class="uk-navbar-right">
+	                <ul class="uk-navbar-nav ">
+	                    <li><div><a class=" {% if this.page.id == 'about' %} active {% else %} underline {% endif %} hover hover-3"  href="{{'about' | page}}">צור קשר</a></div></li>
+	                    <li><div><a class=" {% if this.page.id == 'portfolio' %} active {% else %} underline {% endif %} hover hover-3"  href="{{'portfolio' | page}}">אלבומים</a></div></li>
+	                    <!-- <li><div><a class=" {% if this.page.id == 'gallery' %} active {% else %} underline {% endif %} hover hover-3"  href="{{'gallery' | page}}">gallery</a></div></li> -->
+	                    <li><div><a class=" {% if this.page.id == 'contact' %} active {% else %} underline {% endif %} hover hover-3"  href="{{'contact' | page}}">שירים</a></div></li>
+	                </ul>
+	            </div>
+	            
+	        </nav>
+	</div>
 </div>

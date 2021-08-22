@@ -28,6 +28,24 @@ window.UIkit.use(__webpack_require__(/*! uikit/dist/js/uikit-icons */ "./node_mo
 __webpack_require__(/*! ./bootstrap */ "./assets/resources/js/bootstrap.js");
 /* YOUR CODE HERE */
 
+/*scroll*/
+
+
+var element = document.getElementById("navbar");
+var path = window.location.pathname;
+var page = path.split("/").pop();
+UIkit.util.on('#nav-scroll', 'inview', function () {
+  element.classList.remove("scroll");
+
+  if (page != 'portfolio' || page != 'gallery') {
+    document.documentElement.style.setProperty("--line", "#000");
+  }
+});
+UIkit.util.on('#nav-scroll', 'outview', function () {
+  element.classList.add("scroll");
+  document.documentElement.style.setProperty("--line", "#990033");
+});
+
 /***/ }),
 
 /***/ "./assets/resources/scss/theme.scss":
