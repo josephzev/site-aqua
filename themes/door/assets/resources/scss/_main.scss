@@ -2,8 +2,9 @@
 // =================================================
 
 
+/* colors */
 
-
+$color-main: #000000;
 
                 /* nav */
 
@@ -143,7 +144,7 @@
 /* main page */
 
 .m-second{
-	background-color:#170957;
+	background-color:$color-main;
 	.container{
 		max-width:600px;
 	}

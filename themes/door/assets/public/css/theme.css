@@ -12395,6 +12395,7 @@ iframe.uk-cover {
   display: inline;
 }
 
+/* colors */
 /* nav */
 .from-top {
   height: 10px;
@@ -12517,7 +12518,7 @@ iframe.uk-cover {
 
 /* main page */
 .m-second {
-  background-color: #170957;
+  background-color: #000000;
 }
 .m-second .container {
   max-width: 600px;
