@@ -12569,11 +12569,13 @@ iframe.uk-cover {
   position: relative;
   margin: 30px 0 40px;
   position: relative;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
 }
 .about h1:before {
   content: " ";
   border-bottom: 1px solid #fff;
-  width: 80px;
+  width: 60px;
   display: inline-block;
   position: absolute;
   bottom: -35%;
@@ -12583,7 +12585,7 @@ iframe.uk-cover {
 .about h1:after {
   content: " ";
   border-bottom: 1px solid #fff;
-  width: 80px;
+  width: 60px;
   display: inline-block;
   position: absolute;
   bottom: -35%;
