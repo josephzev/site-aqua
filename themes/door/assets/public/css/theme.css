@@ -12396,6 +12396,7 @@ iframe.uk-cover {
 }
 
 /* colors */
+/* universial classes */
 /* nav */
 .from-top {
   height: 10px;
@@ -12551,6 +12552,90 @@ iframe.uk-cover {
 }
 .m-second .under-nav a:hover {
   opacity: 1;
+}
+
+/* youtube vids */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-left: 0px;
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 66%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+.youtube-vids .block {
+  height: 250px;
+}
+@media (min-width: 640px) {
+  .youtube-vids .block {
+    height: 150px;
+  }
+}
+@media (min-width: 960px) {
+  .youtube-vids .block {
+    height: 250px;
+  }
+}
+.youtube-vids a {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+}
+.youtube-vids a:before {
+  content: " ";
+  border: 2px solid #000;
+  border-bottom: 0px solid #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 20%;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.youtube-vids a:before:hover {
+  border: 2px solid #fff;
+}
+.youtube-vids a:after {
+  content: " ";
+  border: 2px solid #000;
+  border-top: 0px solid #fff;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 20%;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.youtube-vids a:after:hover {
+  border: 2px solid #fff;
+}
+.youtube-vids a:hover:before {
+  border: 2px solid #fff;
+  border-bottom: 0px solid transparent;
+}
+.youtube-vids a:hover:after {
+  border: 2px solid #fff;
+  border-top: 0px solid transparent;
+}
+.youtube-vids a:hover {
+  color: #FF0000;
+}
+.youtube-vids a span {
+  color: inherit;
+  opacity: 0.7;
 }
 
 /* ========================================================================
