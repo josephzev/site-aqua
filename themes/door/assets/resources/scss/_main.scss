@@ -7,7 +7,11 @@
 $color-main: #000000;
 
 /* universial classes */
-
+.background{
+	 padding-left: 10px;
+     padding-right: 10px;
+     overflow: hidden;
+}
                 /* nav */
 
 .from-top{
@@ -179,6 +183,50 @@ $color-main: #000000;
 				}
 			}
 	}
+
+	/* about */
+    .about{
+    	h1{
+    		font-size: 30px;
+		    font-weight: bold;
+		    text-align: center;
+		    color: #fff;
+		    position: relative;
+		    margin: 30px 0 40px;
+		    position:relative;
+		    &:before{
+		    	content: " ";
+			    border-bottom: 1px solid #fff;
+			    width: 80px;
+			    display: inline-block;
+			    position: absolute;
+			    bottom: -35%;
+			    right: 50%;
+			    text-align: center;
+		    }
+		    &:after{
+	    	    content: " ";
+			    border-bottom: 1px solid #fff;
+			    width: 80px;
+			    display: inline-block;
+			    position: absolute;
+			    bottom: -35%;
+			    left: 50%;
+		    }
+    	}
+    	p{
+    		font-family: 'PT Sans Narrow', sans-serif;
+    		color:#fff;
+    		font-size: 20px;
+			vertical-align: baseline;
+			line-height: 26px;
+			font-style: normal;
+			font-weight: 500;
+    	}
+    }
+
+
+
 	/* youtube vids */
 	.container{
 			width: 100%;
@@ -194,12 +242,15 @@ $color-main: #000000;
          }
 	.youtube-vids{
 		.block{
+			padding-left:0px;
 			height: 250px;
 			@media (min-width: $breakpoint-small) {
 			    height: 150px;
+			    padding-left:13px;
                }
                @media (min-width: $breakpoint-medium) {
 			    height: 250px;
+			    padding-left:25px;
                }
 		}
 		a{
