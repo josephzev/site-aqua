@@ -12589,6 +12589,7 @@ iframe.uk-cover {
   position: relative;
   cursor: pointer;
   color: #fff;
+  padding: 11px;
 }
 .youtube-vids a:before {
   content: " ";
