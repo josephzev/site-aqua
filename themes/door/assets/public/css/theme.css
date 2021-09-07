@@ -12523,6 +12523,41 @@ iframe.uk-cover {
   transform: rotate(90deg);
 }
 
+/* nav new */
+.navnew .menu {
+  color: #C9C9C9;
+}
+.navnew .menu:hover {
+  color: #9E9E9E;
+}
+.navnew .menu:active {
+  color: #7D7D7D;
+}
+.navnew .dropdown {
+  background-color: transparent;
+}
+.navnew .dropdown ul {
+  background-color: transparent;
+}
+.navnew .dropdown a {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+  padding-bottom: 15px;
+}
+.navnew .dropdown a:hover {
+  opacity: 1;
+}
+
 /* main page */
 .m-second {
   background-color: #000000;
@@ -12561,6 +12596,10 @@ iframe.uk-cover {
 }
 
 /* about */
+.background {
+  transition: all 1s;
+}
+
 .about h1 {
   font-size: 30px;
   font-weight: bold;

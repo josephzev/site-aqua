@@ -1,0 +1,21 @@
+
+<div class="uk-position-relative navnew">
+    <nav uk-navbar="dropbar: true; dropbar-mode: push" >
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a class="" href="#">
+                       <span uk-icon="icon: menu; ratio: 2.5" class="menu"></span> 
+                    </a>
+                    <div class="uk-navbar-dropdown dropdown" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-center;">
+                        <ul class="uk-nav uk-navbar-dropdown-nav-center uk-text-center">
+                            <li><div><a class=" " href="#about" uk-scroll>About</a></div></li>
+                            <li><div><a class=" "  href="{{'contact' | page}}">Contact</a></div></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="uk-navbar-dropbar dropdown"></div>
+</div>
