@@ -12566,6 +12566,7 @@ iframe.uk-cover {
   font-family: "PT Sans Narrow", sans-serif;
   padding-top: 15px;
   padding-bottom: 10px;
+  opacity: 0.94;
 }
 .footer a {
   font-size: 20px;
@@ -12759,7 +12760,7 @@ iframe.uk-cover {
 /* contact */
 .contact {
   color: #000000;
-  padding-bottom: 90px;
+  padding-bottom: 180px;
   padding-top: 90px;
 }
 .contact h3 {
@@ -12772,7 +12773,7 @@ iframe.uk-cover {
 .contact h3 em {
   color: inherit;
 }
-.contact a {
+.contact .mail {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -12780,7 +12781,7 @@ iframe.uk-cover {
   color: inherit;
   border-bottom: 3px solid #BC0404;
 }
-.contact a:hover {
+.contact .mail:hover {
   color: #FF0000;
   text-decoration: none;
 }
