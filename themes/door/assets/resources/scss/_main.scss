@@ -192,6 +192,8 @@ $color-main: #000000;
 	color: #999999;
 	font-size: 18px;
 	font-family: 'PT Sans Narrow', sans-serif;
+	padding-top: 15px;
+	padding-bottom: 10px;
 		a{
 		font-size: 20px;
 	    line-height: 30px;
@@ -389,14 +391,13 @@ $color-main: #000000;
 	/* contact */
 
 	.contact{
-		color:#ffffff;
+		color:#000000;
 		padding-bottom: 90px;
-			padding-top: 90px;
+		padding-top: 90px;
 		h3{
 			font-family: 'PT Sans Narrow', sans-serif;
 			font-weight: 700;
 			font-size: 40px;
-			opacity: 0.8;
 			color:inherit;
 			letter-spacing: 1.2px;
 			em{

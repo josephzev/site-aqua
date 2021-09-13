@@ -12564,6 +12564,8 @@ iframe.uk-cover {
   color: #999999;
   font-size: 18px;
   font-family: "PT Sans Narrow", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 .footer a {
   font-size: 20px;
@@ -12756,7 +12758,7 @@ iframe.uk-cover {
 
 /* contact */
 .contact {
-  color: #ffffff;
+  color: #000000;
   padding-bottom: 90px;
   padding-top: 90px;
 }
@@ -12764,7 +12766,6 @@ iframe.uk-cover {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
   font-size: 40px;
-  opacity: 0.8;
   color: inherit;
   letter-spacing: 1.2px;
 }
